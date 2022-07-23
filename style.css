@@ -1,0 +1,16 @@
+body{
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 0% ;
+    margin-bottom: 10px;
+    border-bottom: 2px rgb(185, 185, 185) solid;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.CV{
+    border-top: 2px rgb(185, 185, 185) solid;
+    padding: 0%;
+}

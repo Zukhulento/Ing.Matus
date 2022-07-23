@@ -1,0 +1,22 @@
+.col{
+    border: 1px black solid;
+}
+
+.carrousel{
+    background-color: transparent   ;
+}
+.carousel{
+    background-color:#4179CF ;
+}
+.carousel-indicators button{
+    background-color:   #000732;
+}
+#carrusel .carousel-indicators button {background-color: #000732;}
+#carrusel .control span {color: #000732;}
+.carousel-caption h5{
+    font-weight: bold;
+}
+.carousel-caption p{color: black;font-weight: bold;}
+.custom1{
+    color: black;
+}
