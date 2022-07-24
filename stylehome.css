@@ -6,7 +6,12 @@
     background-color: transparent   ;
 }
 .carousel{
-    background-color:#4179CF ;
+    background-color: #8ecae6;
+    box-shadow: 1px 1px 4px #000732;
+    border-radius: 8px;
+}
+.carrousel img{
+    height: 30vh; width: vw;
 }
 .carousel-indicators button{
     background-color:   #000732;
@@ -19,4 +24,22 @@
 .carousel-caption p{color: black;font-weight: bold;}
 .custom1{
     color: black;
+}
+@media only screen and (min-width: 992px) {
+    .carrousel{
+        background-color: transparent   ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel{
+        background-color: #8ecae6;
+        box-shadow: 1px 1px 4px #000732;
+        border-radius: 8px;
+        width: 70%;
+    }
+    .carrousel img{
+        height: 60vh; width: 60vw;
+    }
+
 }

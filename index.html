@@ -7,8 +7,8 @@
     <!-- Integración de boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!--Integración de estilos custom-->
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/stylehome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylehome.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +20,8 @@
 <body>
     <section><!--Sección de navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+            <div class="container-fluid barra">
+                <a class="navbar-brand" href="index.html">
                     <img src="img/Luis Matus-logos_transparent.png" alt="" width="80" height="75" class="d-inline-block align-text-top">
                   </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,34 +38,34 @@
 
     </section>
     <section class="carrousel">
-        <div id="carrusel" class="carousel slide" data-bs-ride="false">
+        <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <div class="d-flex justify-content-center">
-                    <img src="img/BILWI (1).jpeg"  class="d-block w-90 " alt="img.png " style="height: 60vh; width: 60vw;" >
+                    <img src="img/BILWI (1).jpeg"  class="d-block w-90 " alt="img.png "  >
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Proyecto Bilwi</h5>
                         <p>Información</p>
                       </div>
                 </div>
               </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="10000">
                 <div class="d-flex justify-content-center">
-                    <img src="img/maxresdefault.jpg"  class="d-block w-60 " alt="img.png "style="height: 60vh; width: 60vw;">
+                    <img src="img/maxresdefault.jpg"  class="d-block w-60 " alt="img.png ">
                     <div class="carousel-caption d-none d-md-block">
                         <span class="custom1"><h5>Proyecto Bilwi</h5></span>
                         <p>Información</p>
                       </div>
                 </div>
             </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="10000">
                 <div class="d-flex justify-content-center">
-                    <img src="img/construction.jpg"  class="d-block w-60 " alt="img.png " style="height: 60vh; width: 60vw;" >
+                    <img src="img/construction.jpg"  class="d-block w-60 " alt="img.png " >
                     <div class="carousel-caption d-none d-md-block">
                         <span class="custom1"><h5>Proyecto Bilwi</h5></span>
                         <p>Información</p>
@@ -84,9 +84,44 @@
 
     </section>
     <section class="CV"><!--Sección de contenido de CV-->
-        <div class="d-flex bd-highlight">
-            <div class="p-2 flex-fill bd-highlight">Contenido 1</div>
-            <div class="p-2 flex-fill bd-highlight">Contenido 2</div>
+        <div class="container-fluid curriculum">
+          <div class="row" style="width: 100%; padding-top: 15px;">
+            <div class="col-12 col-md-2">
+              <span class="subtitulo"><p>EMAIL</p></span>
+              <p>lmmatusb@yahoo.es</p>
+              <span class="subtitulo"><p>DIRECCIÓN</p></span>
+              <span class="subtitulo"><p>CELULAR</p></span>
+              <span class="subtitulo"><p>HÁBILIDADES</p></span>
+              <p>por llenar
+              </p>
+
+            </div>
+            <div class="col-12 col-md-10">
+              <ul>
+                <h2><span class="subtitulo">ING.LUIS MANUEL MATUS BALTODANO</span></h2>
+                <li><span class="subtitulo">PERFIL</span></li>
+                <p>Texto de perfil profesional</p>
+                <li><span class="subtitulo">EXPERIENCIAS</span></li>
+                <ol>
+                  <li><h5>Experiencias de proyecto 1</h5></li>
+                  <p>Texto de descripción proyecto 1</p>
+                  <li><h5>Experiencias de proyecto 2</h5></li>
+                  <p>Texto de descripción proyecto 2</p>
+                  <li><h5>Experiencias de proyecto 3</h5></li>
+                  <p>Texto de descripción proyecto 3</p>
+                  <li><h5>Experiencias de proyecto 4</h5></li>
+                  <p>Texto de descripción proyecto 4</p>
+                </ol>
+                <li><span class="subtitulo">EDUCACIÓN</span></li>
+                <ol type="I">
+                  <li><h6><span class="subtitulo">Instituto pedagógico la salle (1989-1994)</span></h6></li>
+                  <li><h6><span class="subtitulo">Ingeniería civíl "Universidad Nacional de Ingeniería" (1995-2000)</span></h6></li>
+                </ol>
+
+              </ul>
+            </div>
+          </div>
+
         </div>
         
     </section>
